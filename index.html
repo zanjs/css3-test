@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<style>
+ @keyframes move{
+        0%{background-position:0 0}
+        100%{background-position:50px 50px}
+     }
+    .csg {
+        height: 371px;
+        background-image: linear-gradient(-45deg,
+        #eee 25%,transparent 25%,transparent 50%,
+        #F3F1EC 50%,
+        #ECE9E2 75%,
+        transparent 75%,
+        transparent);
+        background-size: 50px 50px;
+        animation: move 2s linear infinite;
+    }
+</style>
+<body>
+ <div class="app">
+     <div class="csg"></div>
+ </div>
+ 
+</body>
+</html>
